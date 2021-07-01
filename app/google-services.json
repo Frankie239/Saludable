@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "404468206146",
+    "project_id": "saludable-760cd",
+    "storage_bucket": "saludable-760cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:404468206146:android:a0908d25bbc38344027bdb",
+        "android_client_info": {
+          "package_name": "francisco.gimenez.istea.saludable"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "404468206146-h9emcjrlue4s0cjrtpv8hh6tdhuq8t21.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "francisco.gimenez.istea.saludable",
+            "certificate_hash": "01ae2c5cd4f493e943cd386ee0f3f90e6581861b"
+          }
+        },
+        {
+          "client_id": "404468206146-9v752b3lvoj8ou5l5ggkt875kfl9u7h4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIPc2QkG02yCcnpcqNSKCyGwiHwZ81CWY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "404468206146-9v752b3lvoj8ou5l5ggkt875kfl9u7h4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

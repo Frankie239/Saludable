@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LogInActivity">
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:indeterminate="true"/>
+
+    <EditText
+        android:id="@+id/txtUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Usuario"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/textLoginPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="login"
+        android:text="Iniciar Sesion" />
+
+    <TextView
+    android:id="@+id/ForgotPassword"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_margin="10px"
+    android:text="Olvidaste tu contraseña?"
+        android:onClick="forgotPassword"/>
+
+    <TextView
+        android:onClick="register"
+        android:id="@+id/registrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="10px"
+        android:text="Registrate" />
+</LinearLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegistrarActivity">
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:indeterminate="true"
+        android:visibility="gone"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nombre"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Apellido"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtDni"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="DNI"
+        android:inputType="textPersonName" />
+
+    <Spinner
+        android:id="@+id/spinnerSexo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/dateNacimiento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Fecha de nacimiento"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/txtLocalidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Localidad"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="textPassword" />
+
+    <Spinner
+        android:id="@+id/spinnerTratamiento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar"
+        android:onClick="register"/>
+
+</LinearLayout>
