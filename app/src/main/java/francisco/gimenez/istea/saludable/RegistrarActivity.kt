@@ -34,14 +34,6 @@ class RegistrarActivity : AppCompatActivity() {
 
 
 
-    /*Todo:Agregar todo esto:
-    * DNI
-    * Fecha de nac.
-    * Localidad
-    * Sexo(spinner)
-    * Tratamiento(spinner)
-     */
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_registrar)
@@ -119,14 +111,7 @@ class RegistrarActivity : AppCompatActivity() {
                                 userDB.child("treatment").setValue(treatmentSpinner.selectedItem.toString())
 
 
-                                //TODO: Agregar que se envien el resto de los datos a firebase.
-                                /*
-                                * DNI
-                                * Fecha de nac.
-                                * Localidad
-                                * Sexo(spinner)
-                                * Tratamiento(spinner)
-                                */
+
                                 EnviarALogin()
 
                             }
