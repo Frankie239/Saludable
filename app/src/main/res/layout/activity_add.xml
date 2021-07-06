@@ -7,6 +7,11 @@
     android:orientation="vertical"
     tools:context=".AddActivity">
 
+    <Spinner
+        android:id="@+id/spinnerMealType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
     <EditText
         android:id="@+id/txtFirstDish"
         android:layout_width="match_parent"
@@ -23,9 +28,76 @@
         android:hint="Segundo plato"
         android:inputType="textPersonName" />
 
+    <EditText
+        android:id="@+id/txtDrink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Bebida"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="¿Queria ingerir otro alimento?"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Si" />
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="218dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="No" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="¿Se quedo con hambre?"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="194dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Si" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="219dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="No" />
+    </RadioGroup>
+
     <Button
         android:id="@+id/SaveButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Guardar" />
+
 </LinearLayout>
