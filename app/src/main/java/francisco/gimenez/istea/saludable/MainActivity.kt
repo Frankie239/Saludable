@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var button:Button
 
     //Todo: Hacer que aca se muestre toda la info de los registros (recyclerview)
+    //TODO: Hacer que no se desloguee una vez que cerras la app(podran?)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)

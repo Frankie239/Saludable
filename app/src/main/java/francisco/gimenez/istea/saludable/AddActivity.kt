@@ -20,6 +20,9 @@ class AddActivity : AppCompatActivity() {
     lateinit var txtFirstDish:EditText
     lateinit var txtSecondDish:EditText
     lateinit var btnSave:Button
+    //TODO: Declarar todas las cosas que faltan de la vista
+    //TODO: Agregar los fragmentos opcionales
+
 
     @RequiresApi(Build.VERSION_CODES.O)
     override fun onCreate(savedInstanceState: Bundle?) {
